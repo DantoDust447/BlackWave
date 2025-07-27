@@ -207,6 +207,7 @@ button{
     padding: 10px;
 }
 .card-game {
+    height: 100px;
     flex: 1;
     flex-direction: column;
     flex: 1;
@@ -218,6 +219,12 @@ button{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: #ff0000 solid 1px;
 }
+.card-game:hover {
+    border: #ff0000 solid 2px;
+    color: #ffffff;
+    background-image: linear-gradient(rgba(153, 153, 153, 0.5), rgba(165, 165, 165, 0.5)),;
+    transition: color 0.3s ease;
+}
 .game-list {
     list-style-type: none;
     padding: 0;
@@ -226,4 +233,61 @@ button{
 .game-card-container {
     display: flex;
     margin: 10px;
+}
+.smash-64 {
+    font-family: 'Valorant';
+    color: #ffffff !important;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url('../styles/pictures/SI_WiiVC_SuperSmashBros_image1600w.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.smash-pack{
+    font-family: 'Valorant';
+    color: #ffffff !important;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../styles/pictures/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.smash-melee {
+    font-family: 'Valorant';
+    color: #ffffff !important;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../styles/pictures/melle.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.smash-brawl {
+    font-family: 'Valorant';
+    color: #ffffff !important;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../styles/pictures/SI_Wii_SuperSmashBrosBrawl_image1600w.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.smash-wiiu {
+    font-family: 'Valorant';
+    color: #ffffff !important;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../styles/pictures/SI_WiiU_SuperSmashBrosForWiiU_image1600w.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.street1 {
+    font-family: 'Valorant';
+    color: #ffffff !important;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../styles/pictures/sf1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.street2 {
+    font-family: 'Valorant';
+    color: #ffffff !important;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../styles/pictures/sf2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.valorant {
+    font-family: 'Valorant';
+    color: #ffffff !important;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../styles/pictures/valo.jpg');
+    background-size: cover;
+    background-position: center;
 }
