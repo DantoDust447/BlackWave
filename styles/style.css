@@ -24,36 +24,30 @@ body{
     z-index: -1; /* Ensure the video is behind other content */
 }
 header{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    text-align: center;
     border-color: #ff0000;
     border-width: 3px;
     border-style: solid;
     position: sticky;
     top: 0;
-    display: flex;
-    font-family: 'BlackWave';
+    align-items: center;
     border-radius: 0px;
-    padding: 20px;
     color: #ffffff;
     background-color: #ff000075;
 }
 .title{
-    color: #ffffff;
-    text-decoration: none;
-    flex: 1;
-    font-size: 30px;
-}
-.header-space{
-    flex: 2;    
-}
-.login-link{
-    border-radius: 0px;
-    border-width: 3px;
-    border-style: solid;
-    border-color: #ff0000;
-    padding: 10px;
+    text-align: center;
+    font-family: 'BlackWave';
     background-color: #ff000075;
-    text-decoration: none;
+    border-radius: 0px;
+    padding: 10px;
+    border: #ff0000 solid 3px;
     color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
 }
 .empty-space{
     padding: 20px;
