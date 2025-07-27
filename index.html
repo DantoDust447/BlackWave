@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+	<video autoplay muted loop id="background-video" src="styles/vids/Year 5 Music Video - VALORANT.mp4"></video>
 	<header>
 		<div class="title">
 			<a href="index.html" class="title">BW</a>
@@ -17,7 +18,7 @@
 	</header>
 	<nav>
 		<a class="nav-link" href="">ADM.</a>
-		<a class="nav-link" href="">Juegos.</a>
+		<a class="nav-link" href="pags/info-pages/juegos.html">Juegos.</a>
 		<a class="nav-link" href="">Personajes.</a>
 		<a class="nav-link" href="">Fuentes.</a>
 		<a class="nav-link" href="">Instagram.</a>
@@ -37,6 +38,8 @@
 					aqui te presentamos estrategias de juego y consejos para que puedas disfrutar al maximo de tu experiencia.
 				</p>
 				<p>y si eres un experto comparte tus experiencias de juego con la comunidad!</p>
+				<h1>Comentarios</h1>
+				<input type="text" id="miInput" placeholder="Comentar (Anónimo)"> <button onclick="agregarDiv()">Enviar</button>
 			</article>
 			<aside>
 				<h1>Noticias</h1>
@@ -51,13 +54,15 @@
 				</p>
 				<p class="notice"><strong>Las estrategias de Valorant ya están aquí!</strong>
 					<ul>
-						<li>Line-ups</li>
-						<li>Centinelas como duelistas</li>
-						<li>Bugs estrátegicos</li>
+						<li>Line-ups.</li>
+						<li>Centinelas como duelistas.</li>
+						<li>Bugs estrátegicos.</li>
+						<li>Retículas realmente útiles.</li>
 					</ul>
 				</p>
 			</aside>
 		</section>
 	</main>
+	<script src="js/ComentarEnIndex.js"></script>
 </body>
 </html>
