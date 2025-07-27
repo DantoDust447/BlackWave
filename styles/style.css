@@ -115,6 +115,7 @@ nav{
     text-decoration: none;
     color: #ffffff;
     padding: 8px;
+    font-size: 10px;
 }
 .used-nav-link{
     border: 2px solid #ff0000;
