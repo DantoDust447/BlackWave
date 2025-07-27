@@ -2,8 +2,18 @@
     font-family: 'BlackWave';
     src: url(fonts/redemption-font/Redemption.ttf);
 }
+@font-face {
+    font-family: 'Valorant';
+    src: url(fonts/valorant/Valorant\ Font.ttf);
+}
 body{
     background-color: #444444;
+}
+main{
+    background-color: #ff000075;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
 }
 #background-video {
     position: fixed;
@@ -23,9 +33,18 @@ body{
     object-fit: cover;
     z-index: -1; /* Ensure the video is behind other content */
 }
+#background-video-personajes {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the video is behind other content */
+}
 header{
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-family: 'valorant';
     padding: 20px;
     text-align: center;
     border-color: #ff0000;
@@ -42,12 +61,12 @@ header{
     text-align: center;
     font-family: 'BlackWave';
     background-color: #ff000075;
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 10px;
-    border: #ff0000 solid 3px;
+    border: #ff0000 solid 1px;
     color: #ffffff;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 15px;
 }
 .empty-space{
     padding: 20px;
@@ -91,16 +110,34 @@ nav{
     padding: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-}
+}   
 .nav-link{
     text-decoration: none;
     color: #ffffff;
-    padding: 10px;
+    padding: 8px;
+}
+.used-nav-link{
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #ff000075;
+    color: #ffffff;
+    padding: 8px;
+}
+.link-important{
+    font-size: 23px;
+}
+.link-semi-important{
+    font-size: 20px;
 }
 section{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
+.nav-link:hover{
+    color: #ff0000;
+    transition: color 0.3s ease;
 }
 article{
     flex: 2;
@@ -137,7 +174,7 @@ ul, li{
 .notice{
     border: 2px solid #ff0000;
     background-image: linear-gradient(to right, #ff0000, #ff000000) !important;
-    border-radius: 0px;
+    border-radius: 10px;
     padding: 20px;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -158,4 +195,35 @@ button{
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 10px;
+}
+.game-letter-title {
+    font-family: 'Valorant';
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: #ff0000 solid 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card-game {
+    flex: 1;
+    flex-direction: column;
+    flex: 1;
+    background-color: #ff000075;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: #ff0000 solid 1px;
+}
+.game-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.game-card-container {
+    display: flex;
+    margin: 10px;
 }
