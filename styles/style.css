@@ -222,13 +222,18 @@ button{
 .card-game:hover {
     border: #ff0000 solid 2px;
     color: #ffffff;
-    background-image: linear-gradient(rgba(153, 153, 153, 0.5), rgba(165, 165, 165, 0.5)),;
+    background-image: linear-gradient(rgba(153, 153, 153, 0.699), rgba(165, 165, 165, 0.767)),;
     transition: color 0.3s ease;
 }
 .game-list {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+.title-cards{
+    background-image: linear-gradient(to right, #ff0000, #ff000000) !important;
+    padding: 20px;
+    font-family: 'BlackWave';
 }
 .game-card-container {
     display: flex;
