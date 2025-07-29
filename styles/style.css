@@ -42,6 +42,15 @@ main{
     object-fit: cover;
     z-index: -1; /* Ensure the video is behind other content */
 }
+#background-video-register {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the video is behind other content */
+}
 header{
     font-size: 14px;
     font-family: 'valorant';
