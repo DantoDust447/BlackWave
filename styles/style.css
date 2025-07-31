@@ -324,8 +324,7 @@ button{
     border: #ff0000 solid 1px;
 }
 .agent-card-game:hover {
-    border: #ff0000 solid 2px;
+    border: #990000 solid 1px;
     color: #ffffff;
-    background-image: url('../styles/pictures/Valobanner.avif')!important;
     transition: all 0.3s ease;
 }
