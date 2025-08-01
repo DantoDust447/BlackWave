@@ -1,5 +1,11 @@
 create database BlackWave;
 use BlackWave;
+
+create table puestos(
+puesto_id smallint(15),
+puesto_nombre varchar(12)
+);
+
 create table desarrolladores(
 dpi int auto_increment primary key,
 nombre varchar(25),
@@ -9,8 +15,4 @@ telefono mediumint,
 direccion longtext,
 fecha_contratacion date,
 puesto_id smallint(15)
-);
-create table puestos(
-puesto_id smallint(15),
-puesto_nombre varchar(12)
 );
