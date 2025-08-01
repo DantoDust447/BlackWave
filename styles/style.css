@@ -6,6 +6,10 @@
     font-family: 'Valorant';
     src: url(fonts/valorant/Valorant\ Font.ttf);
 }
+@font-face {
+    font-family: 'impacted';
+    src: url(fonts/impacted/Impacted2.0.ttf);
+}
 body{
     border: 0;
     padding: 0;
@@ -80,6 +84,10 @@ header{
     text-decoration: none;
     font-size: 25px;
 }
+.title:hover{
+    color: #ffee00;
+    transition: color 0.3s ease;
+}
 .empty-space{
     padding: 20px;
     height: 150px;
@@ -151,7 +159,7 @@ section{
     padding: 20px;
 }
 .nav-link:hover{
-    color: #ff0000;
+    color: #ffee00;
     transition: color 0.3s ease;
 }
 article{
@@ -250,7 +258,8 @@ button{
 .title-cards{
     background-image: linear-gradient(to right, #000000, #ff000000) !important;
     padding: 20px;
-    font-family: 'BlackWave';
+    font-family: 'Impacted';
+    font-size: 25px;
 }
 .game-card-container {
     display: flex;
@@ -325,10 +334,12 @@ button{
     color: #ffffff;
     border: #000000 solid 1px;
     margin: 10px;
+    transition: all 0.3s ease-in-out; /* Cambia la duración a 0.3 segundos para todas las propiedades */
 }
 .agent-card-game:hover {
-    filter: grayscale(100%);
+    filter: sepia(1) brightness(0.8); 
     border: #990000 solid 1px;
     color: #ffffff;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out; /* Cambia la duración a 0.3 segundos para todas las propiedades */
+    height: 400px;
 }
