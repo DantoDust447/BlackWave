@@ -13,7 +13,7 @@ body{
     background-color: #444444;
 }
 main{
-    background-color: #ff000075;
+    background-color: #ff000000;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 20px;
@@ -60,35 +60,35 @@ header{
     padding: 20px;
     text-align: center;
     border-color: #ff0000;
-    border-width: 3px;
+    border-width: 0px;
     border-style: solid;
     position: sticky;
     top: 0;
     align-items: center;
     border-radius: 0px;
     color: #ffffff;
-    background-color: #ff000075;
+    background-color: #00000075;
 }
 .title{
     text-align: center;
     font-family: 'BlackWave';
-    background-color: #ff000075;
-    border-radius: 10px;
+    background-color: #ffffff00;
+    border-radius: 0px;
     padding: 10px;
-    border: #ff0000 solid 1px;
+    border: #ff0000 solid 0px;
     color: #ffffff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
 }
 .empty-space{
     padding: 20px;
     height: 150px;
 }
 .login-form{
-    background-color: #ff000075;
+    background-color: #00000075;
     border-radius: 10px;
     padding: 20px;
-    border: #ff0000 solid 1px;
+    border: #000000 solid 1px;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 300px;
@@ -99,13 +99,13 @@ input{
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
-    border: 1px solid #ff0000;
-    background-color: #ffffff;
+    border: 1px solid #000000;
+    background-color: #00000075;
     color: #000000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .submit-button{
-    background-color: #ff0000;
+    background-color: #000000;
     color: #ffffff;
     border: none;
     padding: 10px;
@@ -156,21 +156,23 @@ section{
 }
 article{
     flex: 2;
-    background-color: #ff000075;
+    background-color: #00000075;
     padding: 20px;
-    border-radius: 0px;
+    border-radius: 10px;
     border-width: 3px;
     border-style: solid;
-    border-color: #ff0000;
+    border-color: #000000;
+    margin: 10px;
 }
 aside{
+    margin: 10px;
     flex: 1;
-    background-color: #ff000075;
+    background-color: #00000075;
     padding: 20px;
-    border-radius: 0px;
+    border-radius: 10px;
     border-width: 3px;
     border-style: solid;
-    border-color: #ff0000;
+    border-color: #000000;
 }
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -187,15 +189,15 @@ ul, li{
     color: #ffffff;
 }
 .notice{
-    border: 2px solid #ff0000;
-    background-image: linear-gradient(to right, #ff0000, #ff000000) !important;
+    border: 2px solid #000000;
+    background-image: linear-gradient(to right, #000000, #ff000000) !important;
     border-radius: 10px;
     padding: 20px;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 button{
-    background-color: #ff0000;
+    background-color: #000000;
     color: #ffffff;
     border: none;
     padding: 10px;
@@ -229,10 +231,10 @@ button{
     background-color: #ff000075;
     border-radius: 10px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: #ff0000 solid 1px;
+    border: #000000 solid 1px;
 }
 .card-game:hover {
     border: #ff0000 solid 2px;
@@ -246,7 +248,7 @@ button{
     margin: 0;
 }
 .title-cards{
-    background-image: linear-gradient(to right, #ff0000, #ff000000) !important;
+    background-image: linear-gradient(to right, #000000, #ff000000) !important;
     padding: 20px;
     font-family: 'BlackWave';
 }
@@ -316,14 +318,16 @@ button{
     height: 200px;
     flex: 1;
     flex-direction: column;
-    background-color: #ff000075;
+    background-color: #00000075;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
     color: #ffffff;
-    border: #ff0000 solid 1px;
+    border: #000000 solid 1px;
+    margin: 10px;
 }
 .agent-card-game:hover {
+    filter: grayscale(100%);
     border: #990000 solid 1px;
     color: #ffffff;
     transition: all 0.3s ease;
