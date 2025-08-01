@@ -323,6 +323,7 @@ button{
     background-position: center;
 }
 .agent-card-game{
+    text-decoration: none;
     font-family: 'valorant';
     height: 200px;
     flex: 1;
