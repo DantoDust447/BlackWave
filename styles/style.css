@@ -71,7 +71,8 @@ header{
     align-items: center;
     border-radius: 0px;
     color: #ffffff;
-    background-color: #00000075;
+    background-image: linear-gradient(to right, #ff000000, #000000, #ff000000) !important;
+    /*background-color: #00000075;*/
 }
 .title{
     text-align: center;
