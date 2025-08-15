@@ -378,7 +378,7 @@ button{
     100% { box-shadow: 0 6px 16px #660061; }
     
 }
-h1 {
+.h1-404 {
     border-radius: 10px;
     margin-bottom: 20px;
     color: #ffffff;
