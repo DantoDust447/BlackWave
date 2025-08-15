@@ -238,7 +238,7 @@ button{
     flex: 1;
     flex-direction: column;
     flex: 1;
-    background-color: #ff000075;
+    background-color: #00000075;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
@@ -247,8 +247,8 @@ button{
     border: #000000 solid 1px;
 }
 .card-game:hover {
-    border: #ff0000 solid 2px;
-    color: #ffffff;
+    border: #000000 solid 2px;
+    color: #000000;
     background-image: linear-gradient(rgba(153, 153, 153, 0.699), rgba(165, 165, 165, 0.767)),;
     transition: color 0.3s ease;
 }
@@ -300,6 +300,13 @@ button{
     font-family: 'Valorant';
     color: #ffffff !important;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../styles/pictures/SI_WiiU_SuperSmashBrosForWiiU_image1600w.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.smash-ultimate {
+    font-family: 'Valorant';
+    color: #ffffff !important;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../styles/pictures/ssbu.avif');
     background-size: cover;
     background-position: center;
 }
