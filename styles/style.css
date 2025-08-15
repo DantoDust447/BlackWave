@@ -114,6 +114,7 @@ input{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .submit-button{
+    text-decoration: none;
     background-color: #000000;
     color: #ffffff;
     border: none;
@@ -347,4 +348,22 @@ button{
     color: #ffffff;
     transition: all 0.3s ease-in-out; /* Cambia la duración a 0.3 segundos para todas las propiedades */
     height: 400px;
+}
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('../styles/pictures/AI - BWpet/the404/gpt/4042.png');
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+a{
+    color: #ffee00;
+    text-decoration: none;
 }
