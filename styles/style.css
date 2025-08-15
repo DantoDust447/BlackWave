@@ -344,7 +344,7 @@ button{
 }
 .agent-card-game:hover {
     filter: sepia(1) brightness(0.8); 
-    border: #990000 solid 1px;
+    border: #000000 solid 1px;
     color: #ffffff;
     transition: all 0.3s ease-in-out; /* Cambia la duración a 0.3 segundos para todas las propiedades */
     height: 400px;
