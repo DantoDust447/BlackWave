@@ -1,7 +1,7 @@
 create database clientes_BlackWave;
 use clientes_BlackWave;
 CREATE TABLE clientes (
-    email INT AUTO_INCREMENT PRIMARY KEY,
+    email varchar(255) AUTO_INCREMENT PRIMARY KEY,
     nombre_usuario VARCHAR(100) NOT NULL,
     fecha_nacimiento date NOT NULL UNIQUE,
     password VARCHAR(15),
